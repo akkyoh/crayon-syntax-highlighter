@@ -216,11 +216,11 @@ function crayon_load_plugin_textdomain() {
 }
 
 function crayon__($text) {
-    if (function_exists('__')) {
-        return __($text, CRAYON_DOMAIN);
-    } else {
+    //if (function_exists('__')) {
+    //    return __($text, CRAYON_DOMAIN);
+    //} else {
         return $text;
-    }
+    //}
 }
 
 function crayon_e($text) {
